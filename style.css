@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'calibrilight';
+    src: url('polices/calibril-webfont.eot');
+    src: url('polices/calibril-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/calibril-webfont.woff') format('woff'),
+         url('polices/calibril-webfont.ttf') format('truetype'),
+         url('polices/calibril-webfont.svg#calibrilight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ballparkweiner';
+    src: url('polices/ballw___-webfont.eot');
+    src: url('polices/ballw___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballw___-webfont.woff2') format('woff2'),
+         url('polices/ballw___-webfont.woff') format('woff'),
+         url('polices/ballw___-webfont.ttf') format('truetype'),
+         url('polices/ballw___-webfont.svg#ballparkweiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'ballparkweiner';
+	color:#da2d2d;/*rouge*/
+	margin:0;
+	font-size:3em;/*48/16*/
+}
+
+h2 {
+    font-family: 'calibrilight';
+	color:#757e14;
+	text-align:center;
+	font-size:1.125em;/*18/16*/
+	margin:0;
+}
+
+h3 {
+    font-family: 'ballparkweiner';
+	color:#da2d2d;/*rouge*/
+	margin:0;
+	font-size:2em;/*32/16*/
+	}
+
+h4 {
+    font-family: 'ballparkweiner';
+	color:#da2d2d;/*rouge*/
+	margin:0;
+	font-size:1.625em;/*26/16*/
+	}
+
+
+/*  --------------- logo ----------------*/
+
+#logo {
+	background-image:url(images/pixels-titres.png);
+	background-repeat:repeat-x;
+	padding-bottom:50px;
+	padding-top:20px;
+	text-align:center;
+}
+
+#logo img {
+	margin-left:20px;
+}
+
+
+/* ------------ bloc delices ---------- */
+
+#delices {
+	background-color:#dadada;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#delices img {
+	display:block;
+	margin:auto;
+}
+
+#blockquote {
+    border-left: 5px dotted red;
+    color: #550555;
+}
+
+.vignette img {
+    margin-bottom: 16px;
+}
+
+#recette {
+    background-color: #dadada;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
